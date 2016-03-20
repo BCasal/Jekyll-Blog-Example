@@ -19,6 +19,7 @@ github_username:  github
 
 # Build settings
 markdown: kramdown
+exclude: ["README.md"]
 
 # Pagination
 # install $ sudo gem install jekyll-paginate
