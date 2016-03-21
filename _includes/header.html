@@ -16,7 +16,11 @@
         {% for my_page in site.pages %}
           {% if my_page.title %}
           {% unless my_page.exclude-nav %}
-            <a class="page-link" title="{{ my_page.title }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} <i class="fa fa-{{ my_page.icon }} fa-lg"></i></a>
+            <a class="page-link" title="{{ my_page.title }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}
+              {% if page.icon != nill %}
+                <i class="fa fa-{{ my_page.icon }} fa-lg"></i>
+              {% endif %}
+            </a>
           {% endunless %}
           {% endif %}
         {% endfor %}
