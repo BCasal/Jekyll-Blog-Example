@@ -9,9 +9,10 @@ tags: 		[Default, Post]
 icon: 		"gear"
 
 description: >
-  If {% you won show a custom resume in `posts-list`,
-  include a description in the header of post %},
-  else {% `posts-list` show the page.exceprt %}.
+  if {% you want to write a custom summary of the post,
+  write here the text you want to display %}
+  else {% `posts-list` take the `page.exceprt`,
+  first paragraph of the post %}
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

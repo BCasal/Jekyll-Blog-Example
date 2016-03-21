@@ -6,7 +6,6 @@ date: 		2016-03-20 20:58:52 +0100
 author: 	"Post Author"
 categories: [Jekyll, Update]
 tags: 		[Default-bis, Post-bis]
-icon: 		"gears"
 
 description: >
   If {% you won show a custom resume in `posts-list`,
