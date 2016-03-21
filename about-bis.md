@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About-Bis
+title: About-no-icon
 permalink: /about-bis/
 ---
 

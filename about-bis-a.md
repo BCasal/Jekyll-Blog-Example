@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About-A
+title: About-icon
 permalink: /about-a/
 icon: "github"
 ---
