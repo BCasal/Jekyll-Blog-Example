@@ -1,16 +1,17 @@
 ---
-layout: 	post
+layout: 	  post
 
-title: 		"Welcome to Jekyll"
-date: 		2016-03-20 19:58:52 +0100
-author: 	"Post Author"
+title: 		  "Welcome to Jekyll"
+date: 		  2016-03-20 19:58:52 +0100
+author: 	  "Post Author"
 categories: [Jekyll, Update]
-tags: 		[Default, Post]
-icon: 		"book"
+tags: 		  [Default, Post]
+icon: 		  "book"
 
 description: >
-  Post description include in *posts-list*
-  as posts excerpt.
+  If {% you won show a custom resume in `posts-list`,
+  include a description in the header of post %},
+  else {% `posts-list` show the page.exceprt %}.
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
