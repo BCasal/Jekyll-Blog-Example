@@ -31,7 +31,11 @@ layout: default
               <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}" rel="tag">{{ tag }}</a><span class="post-meta">{% unless post.tags.last == tag %},{% endunless %}</span>
             {% endfor %}
           <!-- post-excerpt -->
-          <span class="excerpt">{{ post.excerpt }}</span>
+          {% if post.description !=nill %}
+            <span class="excerpt">{{ post.description }}</span>
+          {% else %}
+            <span class="excerpt">{{ post.excerpt }}</span>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
