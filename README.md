@@ -36,13 +36,6 @@ Plugin
 * [License](https://github.com/jekyll/jekyll-paginate/blob/master/LICENSE.txt)
 * [How to use](https://jekyllrb.com/docs/pagination/)
 
-### Listados de **Categories & Tags**
-
-* Aside con **nube de Categories y Tags** enlazadas con *páginas indice.*
-* **Páginas indice** con *listado de posts agrupados por Categories/Tags.*
-* **Listado de Categories y Tags debajo del título de los Posts**, acompañando
-  la *fecha* y el *autor* del Post.
-
 ### Font Awesome Icon Font
 
 Font Awesome
@@ -67,15 +60,21 @@ Listado de Páginas
 
 Título
 
-* Si se declara un icono en la cabecera del post, se incluye en el título.
+* Si se declara un icono en la cabecera del post, se muestra junto al título.
 
 Meta datos
 
 * Fecha (icono · Mes Día, Año)
   * Fecha por defecto de Jekyll
+
+
 * Autor (icono · Nombre de autor)
+
+
 * Categories (icono · cat, cat, cat)
   * Listado de categories separadas por comas excepto la última.
+
+
 * Tags (icono · tag, tag, tag)
   * Listado de tas separadas por comas excepto la última.
 
@@ -83,3 +82,44 @@ Resumen del post
 
 * Si se declara una descripción en la cabecera del post, se incluye como resumen
   en el listado, y si no se declara, se incluye el primer párrafo del post.
+
+### Aside
+
+Widgets **Categories & Tags**
+
+* Cada Cat/Tag del widget, está enlazada con su *página indice* correspondiente
+  `tags.md` ~ `categories.md`.
+* El widget de Cats/Tags contiene un enlace con el nombre de Cat/Tag, y un `#id`
+  con el mismo nombre, que lo lleva a su posición en el listado de la *página
+  indice.*
+
+Páginas indice
+
+* Las **páginas indice** tienen en la cabecera un listado igual que el widget de
+  Aside, y un listado con los *posts agrupados por Category/Tag.*
+* Las páginas indice no se muestran en el menú de navegación.
+
+### Posts
+
+Título
+
+* Se comporta igual que en el listado de posts, si hay icono declarado en la
+  cabecera lo muestra junto al título.
+
+Meta datos
+
+* El mismo contenido y el mismo formato, que en el listado de posts.
+
+### Páginas
+
+Título
+
+* Se comporta igual que en los posts, si hay icono declarado en la cabecera lo
+  muestra junto al título.
+
+## Theme
+
+Imágenes
+
+* [Cabecera](https://openclipart.org/detail/221300/abstract-polygon-background)
+* [Footer](http://wallpaperswide.com/polygon_green-wallpapers.html)
