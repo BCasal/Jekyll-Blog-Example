@@ -8,11 +8,13 @@
   {% else %}
     <span>Empty</span>{% endif %}
 </article>
+
 <!-- Tags -->
 <article class="item widget">
   <h3>Tags</h3>
-  {% if site.tags != empty %}
-    {% for tag in site.tags %}
+  {% assign sort_tags = site.tags | sort %}
+  {% if sort_tags != empty %}
+    {% for tag in sort_tags %}
       <a class="tags" href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="Tag {{ tag[0] }}" rel="tag">{{ tag[0] }}</a>
     {% endfor %}
   {% else %}
