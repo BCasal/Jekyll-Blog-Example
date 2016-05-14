@@ -1,4 +1,4 @@
-# Jekyll Skell Blog and Theme · [Demo](http://bcasal.github.io/Jekyll-Blog-Example/)
+# Jekyll Skell Blog and Theme · [Demo](http://bcasal.github.io/Jekyll-Blog_2Columns-Example/)
 
 Blog creado con [Jekyll](https://jekyllrb.com/) a partir de la estructura básica
 que genera por defecto con el comando `$ jekyll new .` con algunos complementos,
